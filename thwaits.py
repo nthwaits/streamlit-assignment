@@ -1,6 +1,4 @@
 import streamlit as st
-import matplotlib.pyplot as plt
-import io
 st.title("Benford's Law Analysis Dashboard")
 st.write("Upload a file to perform Benford Analysis")
 uploaded_file = st.file_uploader("Choose a file", type=["csv", "xlsx"])
